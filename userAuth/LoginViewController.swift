@@ -37,6 +37,7 @@ class LoginViewController: UIViewController {
         emailTextField.inputAccessoryView = toolbar
         passwordTextField.inputAccessoryView = toolbar
     }
+    
     @objc func doneButtonAction() {
         //removes keyboard
         self.view.endEditing(true)
